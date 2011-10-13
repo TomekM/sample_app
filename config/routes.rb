@@ -5,7 +5,10 @@ SampleApp::Application.routes.draw do
 
   get "pages/about"
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 7e4c6bbed8d70c8776f16d7b270f0fdbbd850635
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
