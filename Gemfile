@@ -4,11 +4,9 @@ gem 'rails', '3.1.0'
 
 # Bundle edge Rails instead:
 # gem 'rails',     :git => 'git://github.com/rails/rails.git'
-<<<<<<< HEAD
-#gem "pg", "~> 0.11.0"
-=======
 
->>>>>>> 7e4c6bbed8d70c8776f16d7b270f0fdbbd850635
+#gem "pg", "~> 0.11.0"
+
 gem 'sqlite3'
 group :development do
   gem 'rspec-rails', '2.6.1'
@@ -38,11 +36,9 @@ gem 'jquery-rails'
 
 # To use debugger
 # gem 'ruby-debug19', :require => 'ruby-debug'
-<<<<<<< HEAD
+
 group :production do
   gem 'therubyracer-heroku', '0.8.1.pre3' # you will need this too
   gem 'pg'
 end
-=======
 
->>>>>>> 7e4c6bbed8d70c8776f16d7b270f0fdbbd850635
