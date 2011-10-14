@@ -1,16 +1,14 @@
 source 'http://rubygems.org'
 gem "thin"
-gem 'rails', '3.0.10 '
+gem 'rails', '3.1.0 '
+gem 'sqlite3', '1.3.3'
 gem "heroku"
 # Bundle edge Rails instead:
 # gem 'rails',     :git => 'git://github.com/rails/rails.git'
 
-#gem "pg", "~> 0.11.0"
-
 
 group :development do
   gem 'rspec-rails', '2.6.1'
-  gem 'sqlite3'
 end
 
 group :test do
@@ -22,12 +20,12 @@ end
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
-  #gem 'sass-rails', " 3.1.4 "
- # gem 'coffee-rails', " 3.1.1  "
+  gem 'sass-rails', " 3.1.0 "
+  gem 'coffee-rails', " 3.1.0  "
   gem 'uglifier'
 end
 
-gem 'jquery-rails'
+#gem 'jquery-rails'
 
 # Use unicorn as the web server
 # gem 'unicorn'
@@ -39,7 +37,7 @@ gem 'jquery-rails'
 # gem 'ruby-debug19', :require => 'ruby-debug'
 
 group :production do
-  #gem 'therubyracer-heroku', '0.8.1.pre3' # you will need this too
+  gem 'therubyracer-heroku', '0.8.1.pre3' # you will need this too
   gem 'pg'
 end
 
